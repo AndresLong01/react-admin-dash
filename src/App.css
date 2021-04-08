@@ -176,3 +176,10 @@ main {
 .card-single:last-child div:last-child span {
   color: #fefefe
 }
+
+/* Table Section */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}

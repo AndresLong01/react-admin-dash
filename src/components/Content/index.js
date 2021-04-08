@@ -11,6 +11,7 @@ const Content = () => {
   //       console.log(res.data.sprites.front_default)
   //     })
   // }
+
   return (
     <div className="main-content">
       <header>
@@ -77,6 +78,42 @@ const Content = () => {
             <div>
               <span className="las la-google-wallet"></span>
             </div>
+          </div>
+
+        </div>
+
+        <div className="recent-grid">
+          <div className="projects">
+            <div className="card">
+              <div className="card-header">
+                <h2>Recent Projects</h2>
+
+                <button>See all <span className="las la-arrow-right"></span></button>
+              </div>
+
+              <div className="card-body">
+                <table>
+                  <thead>
+                    <tr>
+                      <td>Project Title</td>
+                      <td>Department</td>
+                      <td>Status</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>UI/UX Design</td>
+                      <td>Web Development</td>
+                      <td>Eshop Stans</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div className="customers">
+
           </div>
 
         </div>

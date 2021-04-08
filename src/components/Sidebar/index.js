@@ -4,7 +4,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="sidebar-brand">
-        <h1><span className="lab la-accusoft"> X-Mackie</span></h1>
+        <h2><span className="lab la-accusoft"></span><span> X-Mackie</span></h2>
       </div>
 
       <div className="sidebar-menu">
@@ -22,7 +22,7 @@ const Sidebar = () => {
             </a>
           </li>
           <li>
-            <a href="https://www.google.com">
+            <a href="https://www.google.com" className="active">
               <span className="las la-clipboard-list"></span>
               <span>Projects</span>
             </a>

@@ -14,13 +14,13 @@ const Content = () => {
   return (
     <div className="main-content">
       <header>
-        <h1>
+        <h2>
           <label>
             <span className="las la-bars"></span>
           </label>
 
           Dashboard
-        </h1>
+        </h2>
         <div className="search-wrapper">
           <span className= "las la-search"></span>
           <input type="search" placeholder="Search here"></input>
@@ -28,6 +28,7 @@ const Content = () => {
 
         <div className="user-wrapper">
           <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/25.png"></img>
+          {/* <img src="https://pbs.twimg.com/media/EgWJhEKWoAI--rL.jpg"></img> */}
           <div>
               <h4>Mackie Mack Mack</h4>
               <small>administrator</small>
@@ -47,6 +48,37 @@ const Content = () => {
               <span className="las la-users"></span>
             </div>
           </div>
+          
+          <div className="card-single">
+            <div>
+              <h1>79</h1>
+              <span>Projects</span>
+            </div>
+            <div>
+              <span className="las la-clipboard"></span>
+            </div>
+          </div>
+
+          <div className="card-single">
+            <div>
+              <h1>123</h1>
+              <span>Orders</span>
+            </div>
+            <div>
+              <span className="las la-shopping-bag"></span>
+            </div>
+          </div>
+
+          <div className="card-single">
+            <div>
+              <h1>$6k</h1>
+              <span>Income</span>
+            </div>
+            <div>
+              <span className="las la-google-wallet"></span>
+            </div>
+          </div>
+
         </div>
       </main>
     </div>

@@ -1,12 +1,20 @@
 import React from 'react'
-import Content from '../../components/Content'
+import Cards from '../../components/Cards'
 import Sidebar from '../../components/Sidebar'
+import Header from '../../components/Header'
+import Table from '../../components/Table'
 
 const Main = () => {
   return (
     <>
       <Sidebar/>
-      <Content/>
+      <div className="main-content">
+        <Header />
+        <main>
+          <Cards/>
+          <Table />
+        </main>
+      </div>
     </>
   )
 }

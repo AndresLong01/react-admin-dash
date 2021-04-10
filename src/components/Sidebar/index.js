@@ -2,6 +2,8 @@ import React from 'react'
 
 const Sidebar = () => {
   return (
+    <>
+    <input type="checkbox" id="nav-toggle"></input>
     <div className="sidebar">
       <div className="sidebar-brand">
         <h2><span className="lab la-accusoft"></span><span> X-Mackie</span></h2>
@@ -54,6 +56,7 @@ const Sidebar = () => {
         </ul>
       </div>
     </div>
+    </>
   )
 }
 

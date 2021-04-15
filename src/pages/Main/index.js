@@ -3,6 +3,7 @@ import Cards from '../../components/Cards'
 import Sidebar from '../../components/Sidebar'
 import Header from '../../components/Header'
 import Table from '../../components/Table'
+import Aside from '../../components/Aside'
 
 const Main = () => {
   return (
@@ -12,7 +13,10 @@ const Main = () => {
         <Header />
         <main>
           <Cards/>
-          <Table />
+          <div className="recent-grid">
+            <Table />
+            <Aside />
+          </div>
         </main>
       </div>
     </>

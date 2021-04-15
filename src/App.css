@@ -173,7 +173,7 @@ main {
   margin-top: 60px;
   padding: 2rem 1.5rem;
   background: #f0f0f0;
-  min-height: calc(100vh - 90px);
+  min-height: calc(100vh - 78px);
 }
 
 .cards {
